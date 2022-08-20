@@ -1,4 +1,4 @@
-body{
+ body{
   background-color: lightgreen;
   margin: 0px;
 }
@@ -22,6 +22,8 @@ body{
 
 
 }
+
+
 
 @keyframes Moveright {
   from {
@@ -57,7 +59,7 @@ body{
   position: absolute;
   left: 320px;
   color: white;
-  bottom: 500px;
+
   margin: 0px;
   font-size: 20px
 }
@@ -140,6 +142,10 @@ body{
 
   color: darkgreen;
   text-decoration: none;
-
+  transition: 0.5s
 
 }
+.textid:hover {
+  transform: scale(1.2);
+}
+
