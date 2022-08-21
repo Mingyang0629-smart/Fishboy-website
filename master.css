@@ -1,4 +1,4 @@
- body{
+body{
   background-color: lightgreen;
   margin: 0px;
 }
@@ -8,6 +8,19 @@
   width: 100%;
   height: 500px;
   margin: 0px;
+
+}
+
+
+.Home{
+  color: lightgreen;
+  font-size: 30px;
+  position: absolute;
+  margin: 0px;
+  top: 10px;
+  left: 20px;
+  transition: 0.5s;
+
 
 }
 
@@ -23,7 +36,15 @@
 
 }
 
+.Greenpart {
+  background-color: green;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  height: 50px;
 
+}
 
 @keyframes Moveright {
   from {
@@ -149,3 +170,67 @@
   transform: scale(1.2);
 }
 
+.Blog {
+  font-size: 30px;
+  position: absolute;
+  margin: 0;
+  color: lightgreen;
+  left: 200px;
+  top: 10px;
+  transition: 0.5s
+}
+
+.Home:hover {
+  transform: scale(1.2);
+
+}
+
+.Blog:hover {
+  transform: scale(1.2);
+}
+.lightgreen {
+  color: lightgreen;
+  margin: 0px;
+
+}
+.darkgreen {
+  color: darkgreen;
+  margin: 0px;
+}
+.BlogTitle {
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.BlogText {
+  text-align: left;
+  font-size: 20px;
+  width: 800px;
+}
+hr{size: 5px}
+.Onelinebehindarea {
+  background: white;
+  height: 450px;
+  width: 2px;
+  position: absolute;
+  left: 800px;
+  top: 98px
+
+
+}
+.Diffrentcolourtoppart {
+
+  width: 100%;
+  height: 500px;
+  margin: 0px;
+}
+
+.Imagesize {
+  width: 40%;
+  height: 60%;
+  position: absolute;
+  margin: 0px;
+  left: 60%;
+  top: 10%;
+}
